@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.example.kate.sort_folders.models.CopyFile;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +17,7 @@ import java.util.List;
 
 public class ListFiles extends RecyclerView.Adapter<ListFiles.FilesHolder> {
 
-    List<String> files;
+    List<CopyFile> files;
 
     ListFiles(List list){
         files = new ArrayList<>(list);
@@ -30,7 +32,7 @@ public class ListFiles extends RecyclerView.Adapter<ListFiles.FilesHolder> {
 
     @Override
     public void onBindViewHolder(FilesHolder holder, int position) {
-        holder.setText(files.get(position));
+        holder.setText(files.get(position).getName());
     }
 
     @Override

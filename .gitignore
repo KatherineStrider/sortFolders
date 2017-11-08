@@ -1,19 +1,19 @@
-# Built application files
+# Built application copyFiles
 *.apk
 *.ap_
 
 # Files for the ART/Dalvik VM
 *.dex
 
-# Java class files
+# Java class copyFiles
 *.class
 
-# Generated files
+# Generated copyFiles
 bin/
 gen/
 out/
 
-# Gradle files
+# Gradle copyFiles
 .gradle/
 build/
 
@@ -26,7 +26,7 @@ proguard/
 # Log Files
 *.log
 
-# Android Studio Navigation editor temp files
+# Android Studio Navigation editor temp copyFiles
 .navigation/
 
 # Android Studio captures folder
@@ -40,7 +40,7 @@ captures/
 .idea/dictionaries
 .idea/libraries
 
-# Keystore files
+# Keystore copyFiles
 *.jks
 
 # External native build folder generated in Android Studio 2.2 and later

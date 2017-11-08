@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 //            requestMultiplePermissions();
 //            MyThread myThread = new MyThread();
 //            myThread.start();
-            Intent intent = new Intent(getApplicationContext(), ListFilesActivity.class);
+            Intent intent = new Intent(getApplicationContext(), TestCopyActivity.class);
             startActivity(intent);
         }
     };

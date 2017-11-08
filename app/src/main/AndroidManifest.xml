@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".ListFilesActivity" >
         </activity>
+        <activity android:name=".TestCopyActivity" >
+        </activity>
     </application>
 
 </manifest>
